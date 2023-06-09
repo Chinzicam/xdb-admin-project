@@ -80,7 +80,7 @@ public class UserController {
     }
     @PostMapping
     public Result<?> addUser(@RequestBody User user){
-        user.setPassword(passwordEncoder.encode(user.getPassword()));
+//        user.setPassword(passwordEncoder.encode(user.getPassword()));
         userService.save(user);
         return Result.success("新增用户成功");
     }
