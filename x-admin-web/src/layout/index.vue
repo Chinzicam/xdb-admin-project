@@ -23,7 +23,7 @@ export default {
     Sidebar,
     AppMain,
     tagsView
-  },
+  }, 
   mixins: [ResizeMixin],
   computed: {
     sidebar() {

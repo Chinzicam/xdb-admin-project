@@ -3,6 +3,8 @@ package com.czc.sys.mapper;
 import com.czc.sys.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
+import java.util.List;
+
 /**
  * <p>
  *  Mapper 接口
@@ -13,4 +15,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface UserMapper extends BaseMapper<User> {
 
+    List<String> getRoleNamesByUserId(Integer id);
 }

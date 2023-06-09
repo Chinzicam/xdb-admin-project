@@ -16,11 +16,11 @@
               个人信息
             </el-dropdown-item>
           </router-link>
-          <a target="_blank" href="http://www.baidu.com">
-            <el-dropdown-item>公司主页</el-dropdown-item>
+          <a target="_blank" href="https://github.com/Chinzicam">
+            <el-dropdown-item>我的Github</el-dropdown-item>
           </a>
           <el-dropdown-item divided @click.native="logout">
-            <span style="display:block;">注销</span>
+            <span style="display:block;">注 销</span>
           </el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
